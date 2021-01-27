@@ -11,5 +11,6 @@
   "license": "MIT",
   "devDependencies": {
     "http-server": "^0.12.3"
-  }
+  },
+  "homepage": "https://github.com/xgui3783/hippo-draw-box"
 }
