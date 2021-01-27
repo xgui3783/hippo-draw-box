@@ -45,6 +45,7 @@
     boxEl.pointerEvents = 'none'
     boxEl.style.border = `${BORDER_WIDTH}px ${BACKGROUND_COLOR} solid`
     boxEl.style.position = `absolute`
+    boxEl.style.zIndex = 99999
 
     startX = ev.clientX
     startY = ev.clientY
@@ -74,6 +75,7 @@
     container.style.display = 'flex'
     container.style.justifyContent = 'center'
     container.style.alignItems = 'center'
+    container.style.zIndex = 99999
 
     let appendedRef
     if (typeof message === 'string') {
