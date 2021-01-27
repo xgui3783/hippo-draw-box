@@ -150,5 +150,5 @@
       return pr
     }
   }
-  window.drawbox = drawbox
+  window.hippoDrawBox = drawbox
 })()

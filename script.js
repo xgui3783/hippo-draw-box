@@ -1,10 +1,10 @@
 (() => {
   let pr
   setTimeout(() => {
-    pr = drawbox.getABox().then(console.log)
+    pr = hippoDrawBox.getABox().then(console.log)
   }, 100)
 
   // setTimeout(() => {
-  //   drawbox.dismiss(pr)
+  //   hippoDrawBox.dismiss(pr)
   // }, 2000)
 })()
